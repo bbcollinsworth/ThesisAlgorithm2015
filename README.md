@@ -7,41 +7,37 @@ In order to work, these files also need both a "students.json" and "teachers.jso
 
 "students.json" must be formatted as follows, then uploaded to the same location as the wow.js and index.php files:
 
-{
-	"students": [{
-		"name": "Last, First",
-		"NetID": "N00XXXXXX",
-		"choices": "Teacher1st Teacher2nd Teacher3rd",
-		"peers": "N00XXXXXX N00XXXXXX N00XXXXXX N00XXXXXX",
-		"thesis": -1
-	}, {
-		"name": "Last, First",
-		"NetID": "N00XXXXXX",
-		"choices": "Teacher1st Teacher2nd Teacher3rd",
-		"peers": "N00XXXXXX N00XXXXXX N00XXXXXX N00XXXXXX",
-		"thesis": -1
-	}, 
-
-		... etc. ...
-
-	]
-}
-
-"teachers.json" must be formatted as follows, then uploaded to the same location:
-
-{
-	"teachers": [{
-		"name": "FirstThesisTeacher'sLastName",
-		"choices": "N00XXXXXX N00XXXXXX N00XXXXXX N00XXXXXX N00XXXXXX"
-	}, {
-		"name": "SecondThesisTeacher'sLastName",
-		"choices": "N00XXXXXX N00XXXXXX N00XXXXXX N00XXXXXX N00XXXXXX"
-	}, 
-
-		... etc. ...
-
-	]
-}
-
+{<br />
+	"students": [{<br />
+		"name": "Last, First",<br />
+		"NetID": "N00XXXXXX",<br />
+		"choices": "Teacher1st Teacher2nd Teacher3rd",<br />
+		"peers": "N00XXXXXX N00XXXXXX N00XXXXXX N00XXXXXX",<br />
+		"thesis": -1<br />
+	}, {<br />
+		"name": "Last, First",<br />
+		"NetID": "N00XXXXXX",<br />
+		"choices": "Teacher1st Teacher2nd Teacher3rd",<br />
+		"peers": "N00XXXXXX N00XXXXXX N00XXXXXX N00XXXXXX",<br />
+		"thesis": -1<br />
+	}, <br />
+		 etc...<br />
+	]<br />
+}<br />
+<br />
+"teachers.json" must be formatted as follows, then uploaded to the same location:<br />
+<br />
+{<br />
+	"teachers": [{<br />
+		"name": "FirstThesisTeacher'sLastName",<br />
+		"choices": "N00XXXXXX N00XXXXXX N00XXXXXX N00XXXXXX N00XXXXXX"<br />
+	}, {<br />
+		"name": "SecondThesisTeacher'sLastName",<br />
+		"choices": "N00XXXXXX N00XXXXXX N00XXXXXX N00XXXXXX N00XXXXXX"<br />
+	}, <br />
+		etc...<br />
+	]<br />
+}<br />
+<br />
 Once all these files are uploaded, navigate to index.php in a browser to run the algorithm. Refresh the page to keep re-running for different results -- but NOTE that you should copy-paste out any results you want to save before you re-run.
 	
